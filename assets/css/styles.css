@@ -175,6 +175,29 @@ button{
   cursor: pointer;
 }
 
+/* Swiper Class */
+.swiper-pagination{
+  position: initial;
+  margin-top: var(--mb-1);
+}
+
+.swiper-pagination-bullet{
+  width: 5px;
+  height: 5px;
+  background-color: var(--title-color);
+  opacity: 1;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  margin: 0 .5rem;
+} 
+
+.swiper-pagination-bullet-active{
+  width: 1.5rem;
+  height: 5px;
+  border-radius: .5rem;
+}
+
 @media screen and (max-width: 767px){
   .nav__menu{
     position: fixed;
@@ -424,7 +447,7 @@ button{
   animation: floating 2s ease-in-out infinite;
 }
 
-/*=============== TRICK OR TREAT ===============*/
+/*=============== NOVEDADES ===============*/
 .trick__container{
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
@@ -484,7 +507,7 @@ button{
   right: 0;
 }
 
-/*=============== DISCOUNT ===============*/
+/*=============== DONACION NFT ===============*/
 .discount__container{
   background: var(--container-color);
   border-radius: 1rem;

@@ -1,6 +1,6 @@
 const navMenu = document.getElementById("nav-menu"),
-  navToggle = document.getElementById("nav-toggle"),
-  navClose = document.getElementById("nav-close");
+      navToggle = document.getElementById("nav-toggle"),
+      navClose = document.getElementById("nav-close");
 // dando click en toggle despliega el menú 1
 if (navToggle) {
   navToggle.addEventListener("click", () => {
