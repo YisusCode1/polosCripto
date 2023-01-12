@@ -334,6 +334,14 @@ button{
 
 .home__description{
   margin-bottom: var(--mb-1);
+
+}
+
+.coleccion__description {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: var(--font-semi-bold);
+  padding-bottom: 30px;
 }
 
 .home__buttons{
